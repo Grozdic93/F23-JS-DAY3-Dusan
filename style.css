@@ -1,0 +1,115 @@
+.santaContainer {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+    gap: 1rem;
+
+}
+
+.colorChange {
+    width: 300px;
+    height: 300px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+
+/* challenge */
+
+.field {
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem auto;
+    background-color: aliceblue;
+
+}
+
+.playerBtn {
+    background-color: transparent;
+    height: 2rem;
+    border-radius: 1rem;
+    color: tomato;
+    border: 1px solid tomato;
+    transition: all 100ms linear;
+    margin: 0.5rem;
+    box-shadow: 0px 3px 3px #333;
+}
+
+
+.playerBtn:active {
+    box-shadow: 0px 0px 0px #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0, 2rem
+}
+
+.upperdiv {
+    width: 70%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.playerRollField {
+
+    width: 100%;
+    height: 100%;
+    background-color: papayawhip;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.resultField {
+    height: 100px;
+    width: 90%;
+    background-color: tomato;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 200ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectP {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.dieContainer {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid tomato;
+}
+
+.dieContainer span {
+    display: inline-block;
+    width: 20px;
+    border: 1px solid rgb(227, 158, 146);
+    text-align: center;
+}
+
+.dieContainer span:hover {
+    background-color: rgb(227, 158, 146);
+    cursor: pointer;
+}
